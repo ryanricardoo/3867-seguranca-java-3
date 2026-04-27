@@ -37,7 +37,7 @@ O ForumHub é um backend para um fórum de discussões onde a segurança é apli
 1. **Clone o repositório:**
    ```bash
    git clone https://github.com/ryanricardoo/3867-seguranca-java-3.git
-  ´´´
+   
 2. **Configure o banco de dados:
 No arquivo src/main/resources/application.properties, ajuste as credenciais do seu MySQL:
 spring.datasource.url=jdbc:mysql://localhost:3306/forum_hub
@@ -51,4 +51,3 @@ O Flyway executará automaticamente os scripts SQL na inicialização.
 Rode o projeto através da sua IDE ou via terminal:
 ```bash
    mvn spring-boot:run
-  ´´´
